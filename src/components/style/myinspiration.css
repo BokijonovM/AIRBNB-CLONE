@@ -8,16 +8,14 @@
 .card-img{
     height: 150px;
     object-fit: cover;
-    transition: 0.5s all ease-in-out;
-}
-.card-img:hover{
-    transform: scale(1.1);
+    
 }
 
 .card{
     background-color: rgb(109, 109, 109);
     cursor: pointer;
     transition: 1.9s;
+    transition: 0.5s all ease-in-out;
 }
 
 

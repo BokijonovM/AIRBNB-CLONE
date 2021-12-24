@@ -1,5 +1,5 @@
 import React from 'react'
-import './myDiscover.css'
+import './style/myDiscover.css'
 import { Row, Col, Card, Button } from 'react-bootstrap'
 
 function MyDiscover() {

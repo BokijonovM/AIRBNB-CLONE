@@ -1,5 +1,5 @@
 import React from 'react'
-import './MyMain.css'
+import './style/MyMain.css'
 import { Button } from 'react-bootstrap'
 
 function MyMainPage() {

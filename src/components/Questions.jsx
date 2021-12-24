@@ -1,5 +1,5 @@
 import React from 'react'
-import './questions.css'
+import './style/questions.css'
 import { Button } from 'react-bootstrap'
 
 function Questions() {
