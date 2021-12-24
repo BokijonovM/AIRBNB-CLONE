@@ -16,8 +16,9 @@ function App() {
       <MyMainPage />
       <MyInspiration />
       <Container>
-        <MyDiscover />
+
       </Container>
+      <MyDiscover />
       <Questions />
 
     </div>

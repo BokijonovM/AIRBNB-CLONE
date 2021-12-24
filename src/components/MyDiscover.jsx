@@ -5,9 +5,9 @@ import { Row, Col, Card, Button } from 'react-bootstrap'
 function MyDiscover() {
     return (
         <>
-            <h3 className='container mb-4 pl-5' style={{ color: "black" }}>Discover Airbnb Experiences</h3>
+            <h3 className='container mb-4 px-5' style={{ color: "black" }}>Discover Airbnb Experiences <hr /></h3>
 
-            <div className="cards-d-cont ">
+            <div className="cards-d-cont container">
 
                 <Row xs={1} md={1} lg={2} className="g-4 container">
 

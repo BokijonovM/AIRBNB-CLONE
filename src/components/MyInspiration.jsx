@@ -4,7 +4,7 @@ import './style/myinspiration.css'
 function MyInspiration() {
     return (
         <>
-            <h3 className='container my-4 pl-5' style={{ color: "black" }}>Inspiration for your next trip</h3>
+            <h3 className='container my-4 px-5' style={{ color: "black" }}>Inspiration for your next trip <hr /></h3>
 
             <div className="cards-cont container">
 
