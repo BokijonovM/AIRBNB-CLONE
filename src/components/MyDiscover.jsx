@@ -5,7 +5,7 @@ import { Button, Row, Col } from 'react-bootstrap'
 function MyDiscover() {
     return (
         <>
-            <h3 className='container mb-4 pl-4 ml-2 mt-4'>Discover Airbnb Experiences</h3>
+            <h3 className='container mb-4 pl-4 ml-2 mt-4' style={{ color: "black" }}>Discover Airbnb Experiences</h3>
             <Row xs={1} md={2} className="g-2">
 
                 <div className="discovery-cont container">
