@@ -1,52 +1,35 @@
-.discovery-cont{
+.cards-d-cont{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.card-img-d{
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-d{
+    position: relative;
+    border-radius: 10px;
+    
     
 }
+.card-d-body{
+    position: absolute;
+}
 
-.img{
-    width: 500px;
-    height: 480px;
+.card-d-title{
+    font-size: 41px
+}
+
+/* .card-img{
+    height: 150px;
     object-fit: cover;
-    border-radius: 20px;
-    margin-bottom: 30px;
+    transition: 0.5s all ease-in-out;
 }
-.img1{
-    width: 500px;
-    height: 480px;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
-.img-1{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.img-2{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.text-btn{
-    position: absolute;
-    top: 30px;
-    left: 20px;
-}
-.btn-text{
-    position: absolute;
-    top: 150px;
-    left: 20px;
-}
-
-.text-btn1{
-    position: absolute;
-    top: 30px;
-    left: 20px;
-}
-.btn-text1{
-    position: absolute;
-    top: 150px;
-    left: 20px;
-}
+.card-img:hover{
+    transform: scale(1.1);
+} */

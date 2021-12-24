@@ -4,7 +4,7 @@ import './myinspiration.css'
 function MyInspiration() {
     return (
         <>
-            <h3 className='container mb-4 pl-5' style={{ color: "black" }}>Inspiration for your next trip</h3>
+            <h3 className='container my-4 pl-5' style={{ color: "black" }}>Inspiration for your next trip</h3>
 
             <div className="cards-cont container">
 
@@ -16,8 +16,8 @@ function MyInspiration() {
                             <Card.Body>
                                 <Card.Title>Uzbekistan</Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                    222 kilometers away
+                                    <br /> <br /> <br /><br />
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -28,8 +28,8 @@ function MyInspiration() {
                             <Card.Body>
                                 <Card.Title>Poland</Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                    6550 kilometers away
+                                    <br /> <br /> <br /><br />
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -40,8 +40,8 @@ function MyInspiration() {
                             <Card.Body>
                                 <Card.Title>Turkey</Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                    3750 kilometers away
+                                    <br /> <br /> <br /><br />
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -52,8 +52,8 @@ function MyInspiration() {
                             <Card.Body>
                                 <Card.Title>Italy</Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                    8900 kilometers away
+                                    <br /> <br /> <br /><br />
                                 </Card.Text>
                             </Card.Body>
                         </Card>

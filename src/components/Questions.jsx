@@ -10,7 +10,7 @@ function Questions() {
                 about <br />
                 hosting?</h1>
 
-            <Button className="btn-text px-4 py-2" variant="light">Ask a Superhost</Button>
+            <Button className="btn-text2 px-5 py-3" variant="light">Ask a Superhost</Button>
         </div>
     )
 }
