@@ -1,4 +1,52 @@
 .discovery-cont{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.img{
+    width: 500px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.img1{
+    width: 500px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.img-1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.img-2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-btn{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.btn-text{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+.text-btn1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.btn-text1{
+    position: absolute;
+    top: 150px;
+    left: 20px;
 }

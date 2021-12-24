@@ -5,7 +5,23 @@
     box-shadow: 4px 4px 10px #000;
     height: 490px;
     object-fit: cover;
-    position: relative;
     
   
 }
+
+.img-div-main{
+    background-color: black;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.main-text{
+    position: absolute;
+    top: 350px;
+    left: 27%;
+}
+
+
