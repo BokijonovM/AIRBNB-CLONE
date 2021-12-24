@@ -17,3 +17,8 @@ code {
 *{
   margin: 0;
 }
+
+/* Scrollbar hidden but working */
+::-webkit-scrollbar {
+  display: none;
+}
