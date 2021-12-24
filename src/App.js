@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap'
 import MyMainPage from './components/MyMainPage';
 import MyInspiration from './components/MyInspiration';
 import MyDiscover from './components/MyDiscover';
+import Questions from './components/Questions';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Container>
         <MyDiscover />
       </Container>
+      <Questions />
 
     </div>
   );
