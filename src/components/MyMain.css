@@ -1,0 +1,11 @@
+.main-img{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px #000;
+    height: 480px;
+    object-fit: cover;
+    position: relative;
+    
+  
+}
