@@ -24,4 +24,16 @@
     left: 27%;
 }
 
+@media (max-width: 550px) {
+    .main-img{
+        height: 190px;
+    }
+    .img-div-main{
+        padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+    }
+}
+
 

@@ -21,3 +21,9 @@
     top: 430px;
     left: 80px;
 }
+
+@media (max-width: 550px) {
+    .img-container>h1{
+    font-size: 40px;
+}
+}

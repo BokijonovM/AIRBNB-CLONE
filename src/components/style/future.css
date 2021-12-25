@@ -1,0 +1,21 @@
+.row-cont-f{
+    padding-left: 37px;
+}
+
+.hr-cont-f{
+    padding-left: 21px;
+    padding-right: 54px;
+}
+.col-cont-f>p{
+    color: grey;
+    margin-bottom: 0;
+    font-weight:600;
+}
+.col-cont-f>p:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.col-f-1{
+    border-bottom: 1px solid black;
+}
