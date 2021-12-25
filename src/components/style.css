@@ -30,12 +30,21 @@
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
-    
+    transition: 0.5s all ease-in-out;
 }
+
 
 
 .text-container>p:hover{
     color:rgb(199, 199, 199);
+    border-bottom: 2px solid white;
+    border:solid;
+  margin:auto;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  background:linear-gradient(black,black) bottom /* left or right or else */ no-repeat;
+  /* background-size:100% 3px; */
 }
 
 
@@ -127,7 +136,7 @@
     padding-top: 60px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .logo-cont{
         display: none;
     }
