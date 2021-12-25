@@ -1,7 +1,5 @@
 import React from 'react'
 import './style/MyMain.css'
-import { Button } from 'react-bootstrap'
-
 function MyMainPage() {
     return (
         <div className=" img-div-main">
