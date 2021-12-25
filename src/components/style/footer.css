@@ -1,0 +1,27 @@
+.support-text>a{
+    color: black
+}
+
+.footer-cont{
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 30px;
+}
+
+.footer-cont1{
+    background-color: rgb(247, 247, 247);
+}
+
+h6{
+    color: black;
+    padding-top: 30px;
+}
+.row-cont{
+    padding-left: 40px;
+}
+
+.hr-cont{
+    background-color: rgb(247, 247, 247);
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 20px;
+}

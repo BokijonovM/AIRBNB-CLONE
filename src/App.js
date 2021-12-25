@@ -6,6 +6,7 @@ import MyMainPage from './components/MyMainPage';
 import MyInspiration from './components/MyInspiration';
 import MyDiscover from './components/MyDiscover';
 import Questions from './components/Questions';
+import MyFooter from './components/MyFooter';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       </Container>
       <MyDiscover />
       <Questions />
+      <MyFooter />
 
     </div>
   );
