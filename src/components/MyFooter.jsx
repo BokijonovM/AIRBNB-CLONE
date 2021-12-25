@@ -4,7 +4,7 @@ import { Row, Col, Button } from 'react-bootstrap'
 
 function MyFooter() {
     return (
-        <>
+        <div className='main-div'>
             <div className="footer-cont d-flex justify-content-center">
                 <Row className="container row-cont">
                     <Col>
@@ -47,12 +47,12 @@ function MyFooter() {
             <div className="container hr-cont">
                 <hr className="m-0"></hr>
             </div>
-            <div className=' footer-cont1 '>
-                <Row className='container d-flex justify-content-between' style={{ paddingLeft: "97px" }}>
+            <div className=' footer-cont1 d-flex justify-content-center'>
+                <Row className='container d-flex justify-content-between py-1' style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                     <p className="support-text"><a href="#"> © 2021 Airbnb, Inc. · Privacy · Terms · Sitemap</a></p>
                     <div className='smt-cont d-flex'>
                         <div className='d-flex'>
-                            <p style={{ color: "black" }}><i style={{ color: "black" }} class="bi bi-globe"></i><bold className="pl-2 pr-3" style={{ color: "black" }}>English (US)</bold>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ <bold style={{ color: "black" }}>USD</bold></p>
+                            <p style={{ color: "black" }}><i style={{ color: "black" }} class="bi bi-globe"></i><bold className="pl-2 pr-3" style={{ color: "black", textDecoration: "underline" }}>English (US)</bold>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ <bold style={{ color: "black", textDecoration: "underline" }}>USD</bold></p>
                         </div>
                         <div className='d-flex pl-5'>
                             <p className="px-2" style={{ color: "black" }}><i style={{ color: "black", }} class="bi bi-facebook"></i></p>
@@ -65,7 +65,7 @@ function MyFooter() {
                 </Row>
 
             </div>
-        </>
+        </div>
     )
 }
 
