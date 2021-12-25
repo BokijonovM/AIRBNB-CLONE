@@ -2,6 +2,9 @@
     color: black;
     margin-bottom: 0;
 }
+.col-cont-e>p:hover{
+    cursor: pointer;
+}
 
 .row-cont-e {
     padding-left: 37px;

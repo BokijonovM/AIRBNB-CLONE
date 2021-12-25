@@ -25,5 +25,12 @@
 @media (max-width: 550px) {
     .img-container>h1{
     font-size: 40px;
+    left: 30px;
+    top: 100px;
+}
+.btn-text2{
+    position: absolute;
+    top: 430px;
+    left: 30px;
 }
 }

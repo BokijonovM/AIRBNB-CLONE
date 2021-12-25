@@ -24,3 +24,17 @@
 .card-d-title{
     font-size: 41px
 }
+
+@media (max-width: 550px) {
+    .card-d-body{
+    left: -20px;
+}
+.card-d-title{
+    font-size: 30px
+}
+.card-img-d{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+}
