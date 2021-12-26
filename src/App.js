@@ -9,10 +9,6 @@ import MyFooter from './components/MyFooter';
 import MyFuture from './components/MyFuture';
 import Future from './components/Future';
 
-
-
-
-
 function App() {
   return (
     <div className="App">
