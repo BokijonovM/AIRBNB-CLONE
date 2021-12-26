@@ -12,6 +12,7 @@ import {
     Route
 } from "react-router-dom";
 import Page from './components/Page'
+import Page2 from './components/Page2'
 
 const rootElement = document.getElementById("root");
 render(
@@ -19,6 +20,7 @@ render(
         <Routes>
             <Route path="/" element={<App />} />
             <Route path="Page" element={<Page />} />
+            <Route path="Page2" element={<Page2 />} />
         </Routes>
     </BrowserRouter>,
     rootElement

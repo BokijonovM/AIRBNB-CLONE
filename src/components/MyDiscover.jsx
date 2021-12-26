@@ -26,9 +26,11 @@ function MyDiscover() {
                         <Card className="mb-4 card-d border-0 mx-1">
                             <Card.Img variant="top" className="card-img-d" src="https://images.unsplash.com/photo-1542650742-d3150fb66298?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
                             <Card.Body className='card-d-body pt-5 ml-4'>
+
                                 <Card.Title className='card-d-title'>Things to do <br />
                                     from home</Card.Title>
-                                <Button className="btn-text1 px-4 py-2" variant="light">Online Experiences</Button>
+                                <a href='/page2'><Button className="btn-text1 px-4 py-2" variant="light">Online Experiences</Button></a>
+
 
                             </Card.Body>
                         </Card>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato&family=M+PLUS+1:wght@400;500;600;700;800&family=Outfit:wght@300&family=Playfair+Display:wght@700&family=Roboto+Slab:wght@400;500;800&family=Vujahday+Script&family=Zen+Kurenaido&display=swap');
+
+/* h1, h3{
+    color: rgb(96, 1, 43) !important;
+} */
+
+.page-cont{
+    height: 100hv;
+}
+h1{
+    font-size: 64px;
+}
+span{
+    font-family: 'Vujahday Script', cursive;
+    color: black;
+}
+
+.page-btn{
+    background-color: rgb(96, 1, 43) !important;
+}
+
+.main-page-cont{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+h3{
+    font-size: 32px
+}
+.logo-page{
+    width: 40px;
+    margin-left: 70px;
+    
+}
+.logo-page:hover{
+    background-color: rgb(221, 221, 221);
+    border-radius: 50%;
+
+}
+.ask-btn, .ask-btn:hover{
+      background-color: white;
+      color: black;
+      /* box-shadow: 2px 3px #888888; */
+      border-radius: 99px;
+      font-weight: bold;
+
+}
+.navbar-page{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-btn{
+    margin-right: 70px;
+}
+.nav-img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+@media (max-width: 770px) {
+    h1{
+    font-size: 34px;
+}
+h3{
+    font-size: 18px
+}
+}
+
