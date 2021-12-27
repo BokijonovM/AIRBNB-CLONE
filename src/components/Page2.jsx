@@ -7,9 +7,9 @@ import CardsP2 from './CardsP2'
 
 function Page2() {
     return (
-        <div>
+        <div className='page2-container'>
             <div>
-                <Navbar expand="lg" variant="light" bg="light" className="my-nav-p2 d-flex justify-content-between">
+                <Navbar expand="lg" variant="light" bg="light" className="my-nav-p2 d-flex justify-content-between shadow bg-body">
                     <Navbar.Brand className='p-0 pl-5' href="#"><a href='/'><img src={logo} alt=''></img></a></Navbar.Brand>
                     <div className="buttons-container pr-5">
                         <Button style={{ color: "black" }} className="buttons-nav3" variant="transparent">Become a Host</Button>{' '}

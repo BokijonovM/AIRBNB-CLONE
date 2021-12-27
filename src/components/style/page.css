@@ -33,6 +33,7 @@ h3{
     margin-left: 70px;
     
 }
+
 .logo-page:hover{
     background-color: rgb(221, 221, 221);
     border-radius: 50%;
@@ -81,13 +82,57 @@ h3{
 .p2-card-img{
     height: 300px;
     object-fit: cover;
-    width: 400px;
-    margin-right: 30px;
+    width: 500px;
+    transition: transform 450ms;
+    cursor: pointer;
+    border-radius: 15px;
 }
 .p2-card{
     position: relative;
-    width: 100%;
+    width: 500px;
+    border-radius: 30px;
 }
 .p2-card-body{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
+.p2-btn-card{
+    width: 100px;
+}
+
+.row__poster{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.row__poster::-webkit-scrollbar{
+    display: none;
+}
+.p2-col{
+    width: 600px;
+    display: flex;
+    justify-content:space-between
+}
+.card-cont-p2{
+    display: flex;
+    justify-content: center
+}
+.card-text-p2{
+    font-weight: bolder;
+}
+.p2-card-title{
+    font-size: 15px
+}
+@media (max-width: 570px) {
+    .p2-card{
+        position: relative;
+        width: 300px;
+    }
+}
+
