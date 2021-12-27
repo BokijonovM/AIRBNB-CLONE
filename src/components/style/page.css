@@ -173,3 +173,42 @@ p, span, h5{
 .showMore-text{
     font-size: 10px
 }
+
+.p3p3-card{
+    flex-direction: row;
+    display: flex;
+    border-radius: 15px;
+    width: 100%
+}
+
+.p3p3-img{
+    width: 170px;
+    height: 100%;
+    border-radius: 15px;
+    background-color: transparent;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.p3p3-button{
+    font-size: x-small;
+}
+
+.buttons-cont-p3{
+    position:absolute;
+    bottom:20px
+}
+
+.load-more-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-button{
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+}
+.load-more-button:hover{
+    background-color: rgb(70, 70, 70);
+    border-radius: 15px;
+}

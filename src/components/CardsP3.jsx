@@ -5,12 +5,12 @@ import logo from './images/heart.svg'
 function CardsP3() {
     return (
         <>
-            <h4 className='container mt-5 px-5' style={{ color: "black" }}>Plan a trip with help from local Hosts around the world
+            <h4 className='container mt-3 px-5' style={{ color: "black" }}>Plan a trip with help from local Hosts around the world
                 <hr /></h4>
             <div className='container'>
                 <Row xs={1} md={3} lg={5} className="g-4 container row__poster">
                     {Array.from({ length: 15 }).map((_, idx) => (
-                        <Col>
+                        <Col className='p-2'>
                             <Card className='bg-transparent border-0 p3-card'>
                                 <Card.Img className='page3-img' variant="top" src="https://images.unsplash.com/photo-1515615791787-d8e0022e233f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80" />
                                 {/* <Badge className='img-badge' bg="transparent"><i style={{ color: "red", opacity: "0.5", fontSize: "30px" }} class="bi bi-heart-fill"></i></Badge> */}
