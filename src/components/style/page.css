@@ -72,3 +72,22 @@ h3{
 }
 }
 
+.my-nav-p2{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.p2-card-img{
+    height: 300px;
+    object-fit: cover;
+    width: 400px;
+    margin-right: 30px;
+}
+.p2-card{
+    position: relative;
+    width: 100%;
+}
+.p2-card-body{
+    position: absolute;
+}
