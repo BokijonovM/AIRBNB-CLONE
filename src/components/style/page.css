@@ -212,3 +212,23 @@ p, span, h5{
     background-color: rgb(70, 70, 70);
     border-radius: 15px;
 }
+
+.secondary-btn{
+    border-radius: 99px;
+}
+.secondary-btn:hover{
+    border-radius: 99px;
+    background-color: transparent;
+    color: black;
+    border-color: black;
+}
+
+.more-bts{
+    border-radius: 99px;
+    background-color: rgb(182, 182, 182);
+}
+.more-bts:hover{
+    border-radius: 99px;
+    background-color: rgb(182, 182, 182);
+}
+

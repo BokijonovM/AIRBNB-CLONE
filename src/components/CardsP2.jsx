@@ -28,6 +28,19 @@ function CardsP2() {
                     ))}
                 </Row>
 
+
+            </div>
+            <div className=' card-cont-p2  ml-3'>
+                <Row className='d-flex container row__poster mt-3 mb-4 ml-4 mr-4'>
+                    <Button className='mr-2 secondary-btn' variant="outline-secondary">Dates</Button>
+                    <Button className='mr-2 secondary-btn' variant="outline-secondary">GroupSizes</Button>
+                    <Button className='mr-2 secondary-btn' variant="outline-secondary">MoreFilters</Button>
+                    {Array.from({ length: 15 }).map((_, idx) => (
+                        <Col className='p2-col mr-2 p-0 '>
+                            <Button className='px-5 more-bts border-0'>GreatForGroups </Button>
+                        </Col>
+                    ))}
+                </Row>
             </div>
         </>
     )
