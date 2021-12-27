@@ -10,7 +10,7 @@
 h1{
     font-size: 64px;
 }
-span{
+.span-name{
     font-family: 'Vujahday Script', cursive;
     color: black;
 }
@@ -86,11 +86,13 @@ h3{
     transition: transform 450ms;
     cursor: pointer;
     border-radius: 15px;
+    height: 330px;
 }
 .p2-card{
     position: relative;
     width: 500px;
     border-radius: 30px;
+    height: 330px;
 }
 .p2-card-body{
     position: absolute;
@@ -136,3 +138,32 @@ h3{
     }
 }
 
+.page3-img{
+    border-radius: 15px
+}
+p, span{
+    color: black;
+}
+.anyone-text{
+    
+    font-size: large
+}
+.trip-cost{
+    font-size: 14px
+}
+.trip-cost-span{
+    font-weight: bold;
+}
+
+.p3-card{
+    position: relative;
+}
+.img-badge{
+    position: absolute;
+    right:5px;
+    top: 5px;
+}
+
+.badge-image{
+    width: 30px;
+}

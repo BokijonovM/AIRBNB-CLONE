@@ -17,7 +17,7 @@ function Page() {
                 <div className=''>
                     <h3 style={{ color: "rgb(96, 1, 43)" }}>Questions about hosting?</h3>
                     <h1 style={{ color: "rgb(96, 1, 43)" }} className='py-5'>Just ask
-                        <span> Peter</span>, a Superhost <br /> in Scarsdale. They’ll be your <br /> guide to all things hosting.</h1>
+                        <span className='span-name'> Peter</span>, a Superhost <br /> in Scarsdale. They’ll be your <br /> guide to all things hosting.</h1>
 
                     <Button className='page-btn border-0 px-5 py-3'>Ask a Superhost</Button>{' '}
                 </div>

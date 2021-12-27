@@ -4,6 +4,7 @@ import { Button, Navbar } from 'react-bootstrap'
 import MyFooter from './MyFooter'
 import MyInspiration from './MyInspiration'
 import CardsP2 from './CardsP2'
+import CardsP3 from './CardsP3'
 
 function Page2() {
     return (
@@ -20,6 +21,7 @@ function Page2() {
             </div>
             <div className='pt-5'>
                 <CardsP2 />
+                <CardsP3 />
                 <MyInspiration />
 
             </div>
