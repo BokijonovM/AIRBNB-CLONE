@@ -4,7 +4,7 @@ import { Row, Card, Col, Button } from 'react-bootstrap'
 function CardsP2() {
     return (
         <>
-            <h3 className='container mt-5 px-5' style={{ color: "black" }}>New this week<hr /></h3>
+            <h4 className='container mt-5 px-5' style={{ color: "black" }}>New this week<hr /></h4>
             <div className=' card-cont-p2 container'>
 
                 <Row className="g-4 row__poster">

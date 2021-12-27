@@ -5,6 +5,7 @@ import MyFooter from './MyFooter'
 import MyInspiration from './MyInspiration'
 import CardsP2 from './CardsP2'
 import CardsP3 from './CardsP3'
+import CardsP3P2 from './CardsP3P2'
 
 function Page2() {
     return (
@@ -22,6 +23,7 @@ function Page2() {
             <div className='pt-5'>
                 <CardsP2 />
                 <CardsP3 />
+                <CardsP3P2 />
                 <MyInspiration />
 
             </div>

@@ -139,9 +139,11 @@ h3{
 }
 
 .page3-img{
-    border-radius: 15px
+    border-radius: 15px;
+    height: 250px;
+    object-fit: cover;
 }
-p, span{
+p, span, h5{
     color: black;
 }
 .anyone-text{
@@ -166,4 +168,8 @@ p, span{
 
 .badge-image{
     width: 30px;
+}
+
+.showMore-text{
+    font-size: 10px
 }
