@@ -30,8 +30,8 @@ function CardsP2() {
 
 
             </div>
-            <div className=' card-cont-p2  ml-3'>
-                <Row className='d-flex container row__poster mt-3 mb-4 ml-4 mr-4'>
+            <div className=' card-cont-p2  ml-3 mr-3'>
+                <Row className=' container row__poster mt-3 mb-4 ml-4 mr-4'>
                     <Button className='mr-2 secondary-btn' variant="outline-secondary">Dates</Button>
                     <Button className='mr-2 secondary-btn' variant="outline-secondary">GroupSizes</Button>
                     <Button className='mr-2 secondary-btn' variant="outline-secondary">MoreFilters</Button>

@@ -30,12 +30,10 @@ function CardsP3P3() {
 
                                         </Card.Text>
                                     </Card.Body></div>
-
                             </Card>
                         </Col>
                     ))}
                 </Row>
-
             </div>
         </>
     )

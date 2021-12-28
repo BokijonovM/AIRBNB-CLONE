@@ -8,7 +8,7 @@ function MyFooter() {
             <div className="footer-cont d-flex justify-content-center">
                 <Row className="container row-cont">
                     <Col>
-                        <h6 className='pb-2'>Support</h6>
+                        <h6 className='pb-2' style={{ userSelect: "none" }}>Support</h6>
                         <p className="mb-2 support-text"><a href="#">Help Center</a></p>
                         <p className="mb-2 support-text"><a href="#">Safety information</a></p>
                         <p className="mb-2 support-text"><a href="#">Cancellation options</a></p>
