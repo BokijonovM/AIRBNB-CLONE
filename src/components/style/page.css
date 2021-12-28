@@ -231,4 +231,20 @@ p, span, h5{
     border-radius: 99px;
     background-color: rgb(182, 182, 182);
 }
-
+.span-name-spans{
+    position: relative;
+}
+.span-name-spans span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i));
+  font-size: 60px;
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}

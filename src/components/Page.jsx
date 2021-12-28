@@ -16,13 +16,19 @@ function Page() {
             <div className="page-cont container pl-5 main-page-cont">
                 <div className=''>
                     <h3 style={{ color: "rgb(96, 1, 43)" }}>Questions about hosting?</h3>
-                    <h1 style={{ color: "rgb(96, 1, 43)" }} className='py-5'>Just ask
-                        <span className='span-name'> Peter</span>, a Superhost <br /> in Scarsdale. They’ll be your <br /> guide to all things hosting.</h1>
+                    <h1 style={{ color: "rgb(96, 1, 43)" }} className='py-5'>Just ask &nbsp;
+                        <span className='span-name span-name-spans'>
+                            <span> P</span>
+                            <span>e</span>
+                            <span>t</span>
+                            <span>e</span>
+                            <span>r </span>
+                        </span >, a Superhost < br /> in Scarsdale.They’ll be your < br /> guide to all things hosting.</h1 >
 
-                    <Button className='page-btn border-0 px-5 py-3'>Ask a Superhost</Button>{' '}
-                </div>
+                    <Button className='page-btn border-0 px-5 py-3'>Ask a Superhost</Button>
+                </div >
 
-            </div>
+            </div >
 
         </div >
     )
