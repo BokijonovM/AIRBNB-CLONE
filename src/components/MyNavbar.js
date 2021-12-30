@@ -1,12 +1,12 @@
 import React from 'react'
-import { Button, Form } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import logo from './images/logo.svg'
-import navbarLogo from './images/navbar.png'
+// import navbarLogo from './images/navbar.png'
 import './style.css';
 
 function MyNavbar() {
     return (
-        <>
+        <div style={{ backgroundColor: "black" }}>
             <div className="z-index">
                 <div className="nav-container">
                     <div> <img src={logo} alt='' /></div>
@@ -28,31 +28,46 @@ function MyNavbar() {
                 </div>
             </div>
 
-            <div className="logo-cont">
+            {/* <div className="logo-cont">
                 <img className='navbar-logo-2' src={navbarLogo} alt=''></img>
-            </div>
+            </div> */}
             <div className='main-form-cont'>
                 <div className='d-flex justify-content-between form-main-div'>
-                    <div className='nav2-item py-2 pr-5 pl-4'>
+                    <div className='nav2-item py-3 pr-5 pl-4'>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Location</h6>
                             <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Where are you going?</p></div>
 
                     </div>
-                    <div className='nav2-item py-2 pr-5 pl-4'>
+
+                    <div className='vl-dic'>
+                        <div className='vl'></div>
+                    </div>
+
+                    <div className='nav2-item py-3 pr-0 pl-4'>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check in</h6>
                             <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add dates</p>
                         </div>
 
                     </div>
-                    <div className='nav2-item py-2 pr-5 pl-4'>
+
+                    <div className='vl-dic'>
+                        <div className='vl'></div>
+                    </div>
+
+                    <div className='nav2-item py-3 pr-0 pl-4'>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check out</h6>
                             <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add dates</p>
                         </div>
                     </div>
-                    <div className='nav2-item nav2-item-search py-2 pr-5 pl-4'>
+
+                    <div className='vl-dic'>
+                        <div className='vl'></div>
+                    </div>
+
+                    <div className='nav2-item nav2-item-search py-3 pr-5 pl-4' style={{ position: "relative" }}>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Guests</h6>
                             <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add guests</p>
@@ -66,7 +81,7 @@ function MyNavbar() {
                 </div>
             </div>
 
-        </>
+        </div>
     )
 }
 
