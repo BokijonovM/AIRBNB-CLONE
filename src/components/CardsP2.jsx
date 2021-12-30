@@ -35,7 +35,7 @@ function CardsP2() {
                     <Button className='mr-2 secondary-btn' variant="outline-secondary">Dates</Button>
                     <Button className='mr-2 secondary-btn' variant="outline-secondary">GroupSizes</Button>
                     <Button className='mr-2 secondary-btn' variant="outline-secondary">MoreFilters</Button>
-                    {Array.from({ length: 15 }).map((_, idx) => (
+                    {Array.from({ length: 5 }).map((_, idx) => (
                         <Col className='p2-col mr-2 p-0 '>
                             <Button className='px-5 more-bts border-0'>GreatForGroups </Button>
                         </Col>

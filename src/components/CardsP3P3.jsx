@@ -20,7 +20,7 @@ function CardsP3P3() {
                                 <div>
                                     <Card.Body className='bg-transparent'>
                                         <Card.Text style={{ color: "black" }}>
-                                            <p className='d-flex mb-0' style={{ color: "black" }}><i style={{ color: "red" }} className="bi bi-star-fill pr-1"></i>5.0<p className='px-1 text-muted mb-1' style={{ color: "black" }}>(9739) · Uzbekistan</p></p>
+                                            <p className='d-flex mb-0' style={{ color: "black" }}><i style={{ color: "red" }} className="bi bi-star-fill pr-1"></i>5.0<p className='px-1 text-muted mb-1' style={{ color: "black" }}>(239739) · Uzbekistan</p></p>
                                             <p className='anyone-text mb-0'>Welcome to Uzbekistan <br /> Eat and Enjoy</p>
                                             <p className='trip-cost'><span className='trip-cost-span'>Price:<span className='text-muted px-1'> ̶$̶9̶9̶</span>$79</span>  / person</p>
                                             <div className='buttons-cont-p3'>

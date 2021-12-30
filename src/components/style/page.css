@@ -248,3 +248,45 @@ p, span, h5{
     transform: rotateY(360deg) 
   }
 }
+.form-main-div{
+    background-color: rgb(255, 255, 255);
+   width: 65%;
+   border-radius: 99px
+   
+}
+.main-form-cont{
+ display: flex;
+   justify-content: center;
+ background-color: black;
+}
+.nav2-item{
+    background-color: #ffffff;
+    border-radius: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%
+}
+.nav2-item:hover{
+    background-color: rgb(236, 236, 236);
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.bi-search-nav{
+    background-color: red;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    
+}
+
+.nav2-item-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}

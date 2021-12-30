@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import { Button, Form } from 'react-bootstrap'
 import logo from './images/logo.svg'
 import navbarLogo from './images/navbar.png'
 import './style.css';
@@ -31,6 +31,41 @@ function MyNavbar() {
             <div className="logo-cont">
                 <img className='navbar-logo-2' src={navbarLogo} alt=''></img>
             </div>
+            <div className='main-form-cont'>
+                <div className='d-flex justify-content-between form-main-div'>
+                    <div className='nav2-item py-2 pr-5 pl-4'>
+                        <div>
+                            <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Location</h6>
+                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Where are you going?</p></div>
+
+                    </div>
+                    <div className='nav2-item py-2 pr-5 pl-4'>
+                        <div>
+                            <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check in</h6>
+                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Add dates</p>
+                        </div>
+
+                    </div>
+                    <div className='nav2-item py-2 pr-5 pl-4'>
+                        <div>
+                            <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check out</h6>
+                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Add dates</p>
+                        </div>
+                    </div>
+                    <div className='nav2-item nav2-item-search py-2 pr-5 pl-4'>
+                        <div>
+                            <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Guests</h6>
+                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Add guests</p>
+                        </div>
+
+                        <i className="bi bi-search bi-search-nav"></i>
+                    </div>
+                    {/* <div className='nav2-item nav2-item-search py-2 pr-5 pl-3'>
+                    <i className="bi bi-search bi-search-nav"></i>
+                </div> */}
+                </div>
+            </div>
+
         </>
     )
 }
