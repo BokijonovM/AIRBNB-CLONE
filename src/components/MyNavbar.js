@@ -36,26 +36,26 @@ function MyNavbar() {
                     <div className='nav2-item py-2 pr-5 pl-4'>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Location</h6>
-                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Where are you going?</p></div>
+                            <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Where are you going?</p></div>
 
                     </div>
                     <div className='nav2-item py-2 pr-5 pl-4'>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check in</h6>
-                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Add dates</p>
+                            <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add dates</p>
                         </div>
 
                     </div>
                     <div className='nav2-item py-2 pr-5 pl-4'>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check out</h6>
-                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Add dates</p>
+                            <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add dates</p>
                         </div>
                     </div>
                     <div className='nav2-item nav2-item-search py-2 pr-5 pl-4'>
                         <div>
                             <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Guests</h6>
-                            <p className='m-0 text-muted' style={{ fontSize: "12px" }}>Add guests</p>
+                            <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add guests</p>
                         </div>
 
                         <i className="bi bi-search bi-search-nav"></i>

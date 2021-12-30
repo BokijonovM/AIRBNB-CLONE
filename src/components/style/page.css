@@ -250,7 +250,7 @@ p, span, h5{
 }
 .form-main-div{
     background-color: rgb(255, 255, 255);
-   width: 65%;
+   width: 75%;
    border-radius: 99px
    
 }
@@ -289,4 +289,17 @@ p, span, h5{
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
+@media (max-width: 800px) {
+    .main-form-cont{
+        display: none;
+}
+
+}
+@media (max-width: 900px) {
+    
+    .form-main-div{
+    width: 90%;
+    
+    }
 }
