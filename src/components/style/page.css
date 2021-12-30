@@ -71,6 +71,9 @@ h3{
 h3{
     font-size: 18px
 }
+.mage2-buttons-cont{
+    display: none;
+}
 }
 
 .my-nav-p2{
@@ -319,7 +322,7 @@ p, span, h5{
  display: flex;
    justify-content: center;
  background-color: black;
- padding-top: 70px;
+ padding-top: 75px;
 }
 .nav2-item{
     background-color: #ffffff;
@@ -338,7 +341,7 @@ p, span, h5{
 
 .bi-search-nav{
     background-color: #ff385c;
-    border-radius: 50%;
+    border-radius: 99px;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 14px;

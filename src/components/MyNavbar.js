@@ -4,7 +4,13 @@ import logo from './images/logo.svg'
 // import navbarLogo from './images/navbar.png'
 import './style.css';
 
+
 function MyNavbar() {
+    // function hideSearchText() {
+    //     let text = document.getElementById('search-text')
+    //     text.style.display = 'block'
+
+    // }
     return (
         <div style={{ backgroundColor: "black" }}>
             <div className="z-index">
@@ -73,7 +79,7 @@ function MyNavbar() {
                             <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add guests</p>
                         </div>
 
-                        <i className="bi bi-search bi-search-nav"></i>
+                        <i className="bi bi-search bi-search-nav"> <span id='search-text' className='search-name-hide' style={{ color: "white" }}>Search</span></i>
                     </div>
                     {/* <div className='nav2-item nav2-item-search py-2 pr-5 pl-3'>
                     <i className="bi bi-search bi-search-nav"></i>
