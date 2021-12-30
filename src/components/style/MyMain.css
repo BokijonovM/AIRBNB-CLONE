@@ -4,11 +4,8 @@
     border-radius: 20px;
     box-shadow: 4px 4px 10px #000;
     height: 490px;
-    object-fit: cover;
-    
-  
+    object-fit: cover; 
 }
-
 .img-div-main{
     background-color: black;
     padding-bottom: 50px;

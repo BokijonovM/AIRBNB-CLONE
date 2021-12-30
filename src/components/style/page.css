@@ -79,19 +79,19 @@ h3{
     width: 100%;
 }
 
+
+.p2-card{
+    width: 500px;
+    border-radius: 30px;
+    height: 330px;
+    position: relative;
+}
 .p2-card-img{
     height: 300px;
     object-fit: cover;
     width: 500px;
-    transition: transform 450ms;
     cursor: pointer;
     border-radius: 15px;
-    height: 330px;
-}
-.p2-card{
-    position: relative;
-    width: 500px;
-    border-radius: 30px;
     height: 330px;
 }
 .p2-card-body{
@@ -100,9 +100,49 @@ h3{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    top: 20px;
+    left: 30px;
 }
 .p2-btn-card{
-    width: 100px;
+    position: absolute;
+    bottom: 40px;
+}
+.card-text-p2{
+    font-weight: bolder;
+}
+.page2-img{
+    border-radius: 15px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+@media (max-width: 650px) {
+    .card-text-p2{
+        font-size: 25px;
+    }
+    .page2-img{
+        border-radius: 15px;
+        height: 270px;
+        object-fit: cover;
+    }    
+    .p2-card-body{
+        left: 20px;
+    }
+}
+@media (max-width: 570px) {
+    .card-text-p2{
+        font-size: 20px;
+    }
+    .page2-img{
+        border-radius: 15px;
+        height: 220px;
+        object-fit: cover;
+    }    
+    .p2-card-body{
+        left: 10px;
+    }
 }
 
 .row__poster{
@@ -111,23 +151,21 @@ h3{
     overflow-y: hidden;
     overflow-x: scroll;
     padding-left: 35px;
-    padding-right: 35px;
+    /* padding-right: 35px; */
 }
 .row__poster::-webkit-scrollbar{
     display: none;
 }
 .p2-col{
     width: 600px;
-    display: flex;
-    justify-content:space-between
+    /* display: flex;
+    justify-content:space-between */
 }
 .card-cont-p2{
     display: flex;
     justify-content: center
 }
-.card-text-p2{
-    font-weight: bolder;
-}
+
 .p2-card-title{
     font-size: 15px
 }
@@ -143,6 +181,7 @@ h3{
     height: 250px;
     object-fit: cover;
 }
+
 p, span, h5{
     color: black;
 }
@@ -193,11 +232,33 @@ p, span, h5{
 .p3p3-button{
     font-size: x-small;
 }
-
 .buttons-cont-p3{
     position:absolute;
     bottom:20px
 }
+@media (max-width: 570px) {
+    .p3p3-card{
+        display:flex;
+        flex-direction: column;
+    }
+    .p3p3-img{
+        width: 100%;
+        border-radius: 15px;
+        background-color: transparent;
+        padding: 5px;
+        object-fit: cover;
+    }
+    .buttons-cont-p3{
+        position: relative;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
 
 .load-more-btn{
     display: flex;
