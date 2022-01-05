@@ -503,3 +503,41 @@ p, span, h5{
     display: flex;
     justify-content: center;
 }
+
+/* .text-cont-i-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+} */
+.text-cont-i-2>h1{
+    color: black;
+    text-align: center;
+}
+.text-cont-i-2-2{
+    margin-bottom: -15px;
+}
+
+.gift-i-card{
+    position: relative;
+    border-radius: 15px;
+}
+
+.gift-i-card-body{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.gift-i-card-img2{
+    height: 60px;
+
+}
+.giftCard-img-i{
+    border-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
