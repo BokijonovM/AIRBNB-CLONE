@@ -19,6 +19,15 @@ code {
 }
 
 /* Scrollbar hidden but working */
-::-webkit-scrollbar {
-  display: none;
+/* ::-webkit-scrollbar {
+  
+  width: 7px;
+  background-color: transparent
 }
+::-webkit-scrollbar-thumb {
+  background-color: rgb(105, 105, 105);    
+  border-radius: 20px; 
+}
+::-webkit-scrollbar-track {
+  background: white;        
+} */

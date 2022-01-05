@@ -489,8 +489,24 @@ p, span, h5{
     font-weight: bold;
     text-align: center;
 }
+
+
 .airbnb-text-gift-i{
     margin-bottom: -79px;
+}
+
+@media (max-width: 710px) {
+    .gift-i-text{
+        font-size: 80px
+    }
+    .airbnb-text-gift-i{
+    margin-bottom: -39px;
+}
+}
+@media (max-width: 510px) {
+    .gift-i-text{
+        font-size: 50px
+    }
 }
 
 .gift-i-text-cont{

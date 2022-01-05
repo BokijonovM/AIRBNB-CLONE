@@ -1,4 +1,3 @@
-import React, { createContext } from 'react'
 import { Row, Col, Card, Container } from 'react-bootstrap'
 import logo from './images/airbnb1.svg'
 import { Component } from "react";

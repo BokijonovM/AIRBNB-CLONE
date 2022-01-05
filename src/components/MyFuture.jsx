@@ -8,7 +8,7 @@ function MyFuture() {
             <h3 className='container mb-4 px-5' style={{ color: "black" }}>Inspiration for future getaways</h3>
 
             <div className='d-flex justify-content-center mb-1'>
-                <Row className='container row-cont-f '>
+                <Row className='container row-cont-f row__poster'>
                     <Col className='container col-cont-f'>
                         <p className='active col-f-1' style={{ color: 'black' }}>Destinations for arts</p>
 
