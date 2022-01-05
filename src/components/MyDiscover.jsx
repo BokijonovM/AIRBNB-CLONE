@@ -29,7 +29,7 @@ function MyDiscover() {
 
                                 <Card.Title className='card-d-title'>Things to do <br />
                                     from home</Card.Title>
-                                <a href='/page2'><Button className="btn-text1 px-4 py-2" variant="light">Online Experiences</Button></a>
+                                <a href='/s/experiences/online'><Button className="btn-text1 px-4 py-2" variant="light">Online Experiences</Button></a>
 
 
                             </Card.Body>

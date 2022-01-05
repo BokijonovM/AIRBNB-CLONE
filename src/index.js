@@ -12,14 +12,16 @@ import {
 } from "react-router-dom";
 import Page from './components/Page'
 import Page2 from './components/Page2'
+import GiftPage from './components/GiftPage'
 
 const rootElement = document.getElementById("root");
 render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<App />} />
-            <Route path="Page" element={<Page />} />
-            <Route path="Page2" element={<Page2 />} />
+            <Route path="askSuperHost" element={<Page />} />
+            <Route path="s/experiences/online" element={<Page2 />} />
+            <Route path="giftCards" element={<GiftPage />} />
         </Routes>
     </BrowserRouter>,
     rootElement

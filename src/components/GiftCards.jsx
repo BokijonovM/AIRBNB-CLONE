@@ -10,7 +10,8 @@ function GiftCards() {
                     <h4 style={{ color: "black" }}>Introducing</h4>
                     <h1 classNme='pt-5' style={{ color: "black", marginBottom: "0px" }}>Airbnb</h1>
                     <h1 style={{ color: "black" }}>gift cards</h1>
-                    <Button className='px-4 py-2' style={{ fontWeight: "bolder" }} variant="dark">Shop now</Button>
+                    <a href='giftCards'><Button className='px-4 py-2' style={{ fontWeight: "bolder" }} variant="dark">Shop now</Button></a>
+
                 </div>
                 <div>
                     <img className='gift-img' src={logo} alt='' ></img>
