@@ -472,3 +472,34 @@ p, span, h5{
     }
 }
 
+
+/* gift cards inside */
+
+.gift-redeem{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    padding-right: 30px;
+    text-decoration: underline;
+}
+
+.gift-i-text{
+    color: black;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+.airbnb-text-gift-i{
+    margin-bottom: -79px;
+}
+
+.gift-i-text-cont{
+    width: 100%;
+    padding-top: 120px;
+}
+
+.gift-i-card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
