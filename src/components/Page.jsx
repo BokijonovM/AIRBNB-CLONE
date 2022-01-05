@@ -7,11 +7,13 @@ function Page() {
         <div>
             <Navbar className='navbar-page' expand="lg" variant="light">
                 <Navbar.Brand className='p-0'> <img className='logo-page p-2' src={logo} alt=''></img></Navbar.Brand>
-                <div className='mage2-buttons-cont'>
-                    <Button className='ask-btn border-0 px-4 py-2 shadow-lg bg-body mr-3'><img className='nav-img' src='https://th.bing.com/th/id/OIP.d6XGiYqjvNjdLc_6Vl_KdgHaHa?pid=ImgDet&rs=1' alt='' /> Ask a Superhost</Button>{' '}
-                    <Button className='page-btn border-0 px-4 py-3 nav-btn'>Become a host</Button>{' '}
-                </div>
-
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse className='' id="basic-navbar-nav">
+                    <div className='mage2-buttons-cont ml-auto'>
+                        <Button className='ask-btn border-0 px-4 py-2 shadow-lg bg-body mr-3'><img className='nav-img' src='https://th.bing.com/th/id/OIP.d6XGiYqjvNjdLc_6Vl_KdgHaHa?pid=ImgDet&rs=1' alt='' /> Ask a Superhost</Button>{' '}
+                        <Button className='page-btn border-0 px-4 py-3 nav-btn'>Become a host</Button>{' '}
+                    </div>
+                </Navbar.Collapse>
             </Navbar >
             <div className="page-cont container pl-5 main-page-cont">
                 <div className=''>

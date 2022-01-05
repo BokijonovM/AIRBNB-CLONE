@@ -10,10 +10,13 @@ function GiftPage() {
             <div>
                 <Navbar expand="lg" variant="light" bg="light" className="my-nav-p2 d-flex justify-content-between shadow bg-body">
                     <Navbar.Brand className='p-0 pl-5' href="#"><a href='/'><img src={logo} alt=''></img></a></Navbar.Brand>
-                    <div className="buttons-container pr-5">
-                        <h6 className='gift-redeem'>Redeem</h6>
-                        <Button style={{ color: "white", fontWeight: "bolder" }} className="buttons-gift py-2 px-3" variant="danger">Buy gift card</Button>
-                    </div>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse className='' id="basic-navbar-nav">
+                        <div className="buttons-container ml-auto pr-5">
+                            <h6 className='gift-redeem'>Redeem</h6>
+                            <Button style={{ color: "white", fontWeight: "bolder" }} className="buttons-gift py-2 px-3" variant="danger">Buy gift card</Button>
+                        </div>
+                    </Navbar.Collapse>
                 </Navbar>
             </div>
             <div className='gift-i-text-cont'>
