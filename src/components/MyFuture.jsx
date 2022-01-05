@@ -11,11 +11,9 @@ function MyFuture() {
                 <Row className='container row-cont-f row__poster'>
                     <Col className='container col-cont-f'>
                         <p className='active col-f-1' style={{ color: 'black' }}>Destinations for arts</p>
-
                     </Col>
                     <Col className='container col-cont-f'>
                         <p className='active'>Destinations for EU</p>
-
                     </Col>
                     <Col className='container col-cont-f'>
                         <p className='active'>Mountain cabins</p>

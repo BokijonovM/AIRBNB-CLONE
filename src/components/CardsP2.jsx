@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Card, Col, Button } from 'react-bootstrap'
+import mainLogo from './assets/1.jpg'
 
 function CardsP2() {
     return (
@@ -31,7 +32,7 @@ function CardsP2() {
                     {Array.from({ length: 15 }).map((_, idx) => (
                         <Col className='p-2'>
                             <Card className='bg-transparent border-0 p3-card'>
-                                <Card.Img className='page2-img' variant="top" src="https://images.unsplash.com/photo-1617334140746-03dc1cc27593?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt='' />
+                                <Card.Img className='page2-img' variant="top" src={mainLogo} alt='' />
                                 {/* <Badge className='img-badge' bg="transparent"><i style={{ color: "red", opacity: "0.5", fontSize: "30px" }} class="bi bi-heart-fill"></i></Badge> */}
 
                                 <Card.Body className='p-0 p2-card-body'>

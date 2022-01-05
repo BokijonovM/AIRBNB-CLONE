@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Card, Col, Badge, Button } from 'react-bootstrap'
 import logo from './images/heart1.svg'
+import logo4 from './assets/4.jpg'
 
 function CardsP3P3() {
     return (
@@ -13,9 +14,8 @@ function CardsP3P3() {
                         <Col className='d-flex p-2'>
                             <Card className='d-flex p3p3-card bg-transparent'>
                                 <div>
-                                    <Card.Img className='p3p3-img' variant="top" src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=754&q=80" />
+                                    <Card.Img className='p3p3-img' variant="top" src={logo4} />
                                 </div>
-
                                 <Badge className='img-badge' bg="transparent"><img className='badge-image' src={logo} alt='' /></Badge>
                                 <div>
                                     <Card.Body className='bg-transparent'>
@@ -27,7 +27,6 @@ function CardsP3P3() {
                                                 <Button className='mr-1 py-1 px-2 p3p3-button' variant="outline-secondary">2:00 PM</Button>
                                                 <Button className='py-1 px-2 p3p3-button' variant="outline-secondary">5:00 PM</Button>
                                             </div>
-
                                         </Card.Text>
                                     </Card.Body></div>
                             </Card>

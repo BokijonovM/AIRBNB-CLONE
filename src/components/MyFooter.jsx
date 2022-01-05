@@ -58,13 +58,9 @@ function MyFooter() {
                             <p className="px-2" style={{ color: "black" }}><i style={{ color: "black", }} class="bi bi-facebook"></i></p>
                             <p className="px-2" style={{ color: "black" }}><i style={{ color: "black", }} class="bi bi-twitter"></i></p>
                             <p className="px-2" style={{ color: "black" }}><i style={{ color: "black", }} class="bi bi-instagram"></i></p>
-
                         </div>
                     </div>
-
                 </Row>
-
-
             </div>
         </div>
     )

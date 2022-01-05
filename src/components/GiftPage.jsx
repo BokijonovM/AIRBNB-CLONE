@@ -4,7 +4,7 @@ import logo from './images/logo1.svg'
 import { Button, Navbar } from 'react-bootstrap'
 import logo1 from './images/gift1.png'
 import GiftPageCards from './GiftPageCards'
-
+import logo5 from './assets/5.jpg'
 
 function GiftPage() {
     return (
@@ -35,7 +35,7 @@ function GiftPage() {
             </div>
 
             <div className='north-light-cont mt-5'>
-                <img className='north-light-img' src='https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80' alt=''></img>
+                <img className='north-light-img' src={logo5} alt=''></img>
                 <h1 className='great-place-to-stay'>A key to the world <br /> of Airbnb</h1>
             </div>
             <div className='mt-5'>

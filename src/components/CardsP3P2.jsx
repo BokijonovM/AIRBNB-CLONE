@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Card, Col, Badge } from 'react-bootstrap'
 import logo from './images/heart.svg'
+import logo3 from './assets/3.jpg'
 
 function CardsP3() {
     return (
@@ -11,7 +12,7 @@ function CardsP3() {
                     {Array.from({ length: 15 }).map((_, idx) => (
                         <Col className='p-2'>
                             <Card className='bg-transparent border-0 p3-card'>
-                                <Card.Img className='page3-img' variant="top" src="http://media.gq.com/photos/57eac35d9228bbed3f6f4ee5/master/w_2000/elon-musk-is-a-rocket.jpg" />
+                                <Card.Img className='page3-img' variant="top" src={logo3} />
                                 {/* <Badge className='img-badge' bg="transparent"><i style={{ color: "red", opacity: "0.5", fontSize: "30px" }} class="bi bi-heart-fill"></i></Badge> */}
                                 <Badge className='img-badge' bg="transparent"><img className='badge-image' src={logo} alt='' /></Badge>
                                 <Card.Body className='p-0'>

@@ -3,6 +3,13 @@ import { Row, Col } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 // import { CardColumns } from 'reactstrap';
 import './style/myinspiration.css'
+import logo14 from './assets/14.jpg'
+import logo15 from './assets/15.jpg'
+import logo16 from './assets/16.jpg'
+import logo17 from './assets/17.jpg'
+
+
+
 function MyInspiration() {
     return (
         <>
@@ -14,7 +21,7 @@ function MyInspiration() {
 
                     <Col>
                         <Card className="mb-4 card card border-0 mx-1">
-                            <Card.Img variant="top" className="card-img" src="https://images.unsplash.com/photo-1601963251218-816ff32e2baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2099&q=80" />
+                            <Card.Img variant="top" className="card-img" src={logo14} />
                             <Card.Body>
                                 <Card.Title style={{ color: 'white' }}>Uzbekistan Bukhara</Card.Title>
                                 <Card.Text style={{ color: 'white' }}>
@@ -26,7 +33,7 @@ function MyInspiration() {
                     </Col>
                     <Col>
                         <Card className="mb-4 card card border-0 mx-1">
-                            <Card.Img variant="top" className="card-img" src="https://images.unsplash.com/photo-1576926191927-1237cbd83fce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
+                            <Card.Img variant="top" className="card-img" src={logo15} />
                             <Card.Body>
                                 <Card.Title>Poland Gdansk</Card.Title>
                                 <Card.Text style={{ color: 'white' }}>
@@ -38,7 +45,7 @@ function MyInspiration() {
                     </Col>
                     <Col>
                         <Card className="mb-4 card card border-0 mx-1">
-                            <Card.Img variant="top" className="card-img" src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80" />
+                            <Card.Img variant="top" className="card-img" src={logo16} />
                             <Card.Body>
                                 <Card.Title>Turkey Istanbul</Card.Title>
                                 <Card.Text style={{ color: 'white' }}>
@@ -50,7 +57,7 @@ function MyInspiration() {
                     </Col>
                     <Col>
                         <Card className="mb-4 card card border-0 mx-1">
-                            <Card.Img variant="top" className="card-img" src="https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80" />
+                            <Card.Img variant="top" className="card-img" src={logo17} />
                             <Card.Body>
                                 <Card.Title>Italy Venezia </Card.Title>
                                 <Card.Text style={{ color: 'white' }}>
