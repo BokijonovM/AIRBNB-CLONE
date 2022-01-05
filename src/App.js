@@ -8,12 +8,14 @@ import Questions from './components/Questions';
 import MyFooter from './components/MyFooter';
 import MyFuture from './components/MyFuture';
 import Future from './components/Future';
+import GiftCards from './components/GiftCards';
 
 function App() {
   return (
     <div className="App">
       <MyNavbar />
       <MyMainPage />
+      <GiftCards />
       <MyInspiration />
       <MyDiscover />
       <Questions />
