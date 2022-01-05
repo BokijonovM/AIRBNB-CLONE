@@ -571,3 +571,33 @@ p, span, h5{
     top: 170px;
     left: 100px;
 }
+
+.corporate-cont{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.corporate-cont1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 950px) {
+    .corporate-cont, .corporate-cont1{
+        flex-direction: column;
+    }
+}
+
+.arrow-text-cont{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.arrow-text{
+    padding-right: 140px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}

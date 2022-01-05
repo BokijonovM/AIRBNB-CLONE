@@ -11,8 +11,6 @@ function Questions() {
                 about <br />
                 hosting?</h1>
             <a href='/askSuperHost'><Button className="btn-text2 px-5 py-3" variant="light">Ask a Superhost</Button></a>
-
-
         </div>
     )
 }

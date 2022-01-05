@@ -38,6 +38,78 @@ function GiftPage() {
                 <img className='north-light-img' src={logo5} alt=''></img>
                 <h1 className='great-place-to-stay'>A key to the world <br /> of Airbnb</h1>
             </div>
+
+            <div className="corporate-cont container px-5">
+                <div className="pb-5">
+                    <h3 style={{ color: "black", fontWeight: "bolder", fontSize: "40px" }}>Corporate <br /> gift cards</h3>
+                </div>
+                <div>
+                    <h3 style={{ color: "black" }}>Give your customers and employees <br /> the gift of travel.</h3>
+                    <h6 style={{ textDecoration: "underline" }}>Learn more</h6>
+                </div>
+            </div>
+            <div className="container px-5">
+                <hr />
+            </div>
+
+            <div className="corporate-cont1 container px-5">
+                <div className='pr-5 pb-5'>
+                    <h3 style={{ color: "black", fontWeight: "bolder", fontSize: "40px" }}>Frequently <br /> asked questions </h3>
+                    <h5>For other questions visit our <span style={{ textDecoration: "underline", fontWeight: "bolder" }} >help center</span></h5>
+                </div>
+                <div>
+                    <div >
+                        <div className='arrow-text-cont'>
+                            <p className='arrow-text'>Are gift cards physical or digital?</p>
+                            <i style={{ color: "black" }} class="bi bi-caret-down"></i>
+                        </div>
+                        <hr />
+                    </div>
+                    <div >
+                        <div className='arrow-text-cont'>
+                            <p className='arrow-text'>Where can I buy a physical gift card?</p>
+                            <i style={{ color: "black" }} class="bi bi-caret-down"></i>
+                        </div>
+                        <hr />
+                    </div>
+                    <div >
+                        <div className='arrow-text-cont'>
+                            <p className='arrow-text'>What can gift cards be used for?</p>
+                            <i style={{ color: "black" }} class="bi bi-caret-down"></i>
+                        </div>
+                        <hr />
+                    </div>
+                    <div >
+                        <div className='arrow-text-cont'>
+                            <p className='arrow-text'>Do gift cards expire?</p>
+                            <i style={{ color: "black" }} class="bi bi-caret-down"></i>
+                        </div>
+                        <hr />
+                    </div>
+                    <div >
+                        <div className='arrow-text-cont'>
+                            <p className='arrow-text'>Where are gift cards available?</p>
+                            <i style={{ color: "black" }} class="bi bi-caret-down"></i>
+                        </div>
+                        <hr />
+                    </div>
+                    <div >
+                        <div className='arrow-text-cont'>
+                            <p className='arrow-text'>How can I check my gift card balance?</p>
+                            <i style={{ color: "black" }} class="bi bi-caret-down"></i>
+                        </div>
+                        <hr />
+                    </div>
+                    <div >
+                        <div className='arrow-text-cont'>
+                            <p className='arrow-text'>Which payment methods does Airbnb accept?</p>
+                            <i style={{ color: "black" }} class="bi bi-caret-down"></i>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+
             <div className='mt-5'>
                 <MyFooter />
             </div>

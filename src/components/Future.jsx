@@ -38,7 +38,6 @@ function Future() {
                     <h6 style={{ textDecoration: "underline" }}>Show more</h6>
                 </Col>
             </Row>
-
         </div>
     )
 }
