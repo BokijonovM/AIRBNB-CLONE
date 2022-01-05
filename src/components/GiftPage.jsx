@@ -28,12 +28,17 @@ function GiftPage() {
             <div className='w-100 d-flex justify-content-center'>
                 <img className='gift-i-card-img' src={logo1} alt=''></img>
             </div>
-            <div className='text-cont-i-2'>
+            <div className='text-cont-i-2 pb-5'>
                 <h1 className='text-cont-i-2-2'>Easy to give. Easy to love.</h1>
                 <h1>Never expires.</h1>
                 <GiftPageCards />
             </div>
-            <div className='mt-4'>
+
+            <div className='north-light-cont mt-5'>
+                <img className='north-light-img' src='https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80' alt=''></img>
+                <h1 className='great-place-to-stay'>A key to the world <br /> of Airbnb</h1>
+            </div>
+            <div className='mt-5'>
                 <MyFooter />
             </div>
         </>
