@@ -526,12 +526,13 @@ p, span, h5{
     justify-content: center;
     width: 100%;
 } */
-.text-cont-i-2>h1{
+.text-cont-i-2>h2{
     color: black;
     text-align: center;
+    font-size: 52px
 }
 .text-cont-i-2-2{
-    margin-bottom: -15px;
+    margin-bottom: -7px;
 }
 
 .gift-i-card{
@@ -570,6 +571,7 @@ p, span, h5{
     position: absolute;
     top: 170px;
     left: 100px;
+    font-size: 52px;
 }
 
 .corporate-cont{

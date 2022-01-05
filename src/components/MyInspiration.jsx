@@ -32,7 +32,7 @@ function MyInspiration() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className="mb-4 card card border-0 mx-1">
+                        <Card className="mb-4 card1 border-0 mx-1">
                             <Card.Img variant="top" className="card-img" src={logo15} />
                             <Card.Body>
                                 <Card.Title>Poland Gdansk</Card.Title>
@@ -44,7 +44,7 @@ function MyInspiration() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className="mb-4 card card border-0 mx-1">
+                        <Card className="mb-4 card2 border-0 mx-1">
                             <Card.Img variant="top" className="card-img" src={logo16} />
                             <Card.Body>
                                 <Card.Title>Turkey Istanbul</Card.Title>
@@ -56,7 +56,7 @@ function MyInspiration() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card className="mb-4 card card border-0 mx-1">
+                        <Card className="mb-4 card3 border-0 mx-1">
                             <Card.Img variant="top" className="card-img" src={logo17} />
                             <Card.Body>
                                 <Card.Title>Italy Venezia </Card.Title>

@@ -29,8 +29,8 @@ function GiftPage() {
                 <img className='gift-i-card-img' src={logo1} alt=''></img>
             </div>
             <div className='text-cont-i-2 pb-5'>
-                <h1 className='text-cont-i-2-2'>Easy to give. Easy to love.</h1>
-                <h1>Never expires.</h1>
+                <h2 className='text-cont-i-2-2'>Easy to give. Easy to love.</h2>
+                <h2>Never expires.</h2>
                 <GiftPageCards />
             </div>
 
@@ -41,7 +41,7 @@ function GiftPage() {
 
             <div className="corporate-cont container px-5">
                 <div className="pb-5">
-                    <h3 style={{ color: "black", fontWeight: "bolder", fontSize: "40px" }}>Corporate <br /> gift cards</h3>
+                    <h3 style={{ color: "black", fontWeight: "bolder", fontSize: "52px" }}>Corporate <br /> gift cards</h3>
                 </div>
                 <div>
                     <h3 style={{ color: "black" }}>Give your customers and employees <br /> the gift of travel.</h3>
@@ -54,7 +54,7 @@ function GiftPage() {
 
             <div className="corporate-cont1 container px-5">
                 <div className='pr-5 pb-5'>
-                    <h3 style={{ color: "black", fontWeight: "bolder", fontSize: "40px" }}>Frequently <br /> asked questions </h3>
+                    <h3 style={{ color: "black", fontWeight: "bolder", fontSize: "52px" }}>Frequently <br /> asked questions </h3>
                     <h5>For other questions visit our <span style={{ textDecoration: "underline", fontWeight: "bolder" }} >help center</span></h5>
                 </div>
                 <div>
