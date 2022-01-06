@@ -11,7 +11,6 @@ function MyDiscover() {
             <h3 className='container mb-4 px-5' style={{ color: "black" }}>Discover Airbnb Experiences <hr /></h3>
 
             <div className="cards-d-cont container">
-
                 <Row xs={1} md={1} lg={2} className="g-4 container">
                     <Col>
                         <Card className="mb-4 card-d border-0 mx-1">

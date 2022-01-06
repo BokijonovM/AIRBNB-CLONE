@@ -12,8 +12,8 @@ function Page() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className='' id="basic-navbar-nav">
                     <div className='mage2-buttons-cont ml-auto'>
-                        <Button className='ask-btn border-0 px-4 py-2 shadow-lg bg-body mr-3'><img className='nav-img' src={logo19} alt='' /> Ask a Superhost</Button>{' '}
-                        <Button className='page-btn border-0 px-4 py-3 nav-btn'>Become a host</Button>{' '}
+                        <Button className='ask-btn border-0 px-4 py-2 shadow-lg bg-body mr-3'><img className='nav-img' src={logo19} alt='' /> Ask a Superhost</Button>
+                        <Button className='page-btn border-0 px-4 py-3 nav-btn'>Become a host</Button>
                     </div>
                 </Navbar.Collapse>
             </Navbar >

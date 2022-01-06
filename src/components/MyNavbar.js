@@ -6,11 +6,6 @@ import './style.css';
 
 
 function MyNavbar() {
-    // function hideSearchText() {
-    //     let text = document.getElementById('search-text')
-    //     text.style.display = 'block'
-
-    // }
     return (
         <div style={{ backgroundColor: "black" }}>
             <div className="z-index">
