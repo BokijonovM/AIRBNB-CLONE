@@ -597,9 +597,14 @@ p, span, h5{
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    align-items: flex-start;
 }
 .arrow-text{
     padding-right: 140px;
     font-size: 18px;
     margin-bottom: 5px;
+}
+
+.bi-caret-down{
+    font-size: 20px;
 }

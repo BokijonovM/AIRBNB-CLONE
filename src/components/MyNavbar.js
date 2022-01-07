@@ -9,12 +9,15 @@ function MyNavbar() {
     return (
         <div style={{ backgroundColor: "black" }}>
             <div className="z-index">
-                <div className="nav-container">
+                <div className="nav-container py-2">
                     <div> <img src={logo} alt='' /></div>
                     <div className="text-container">
-                        <p>Places to stay</p>
+                        {/* <p>Places to stay</p>
                         <p>Experiences</p>
-                        <p>Online Experiences</p>
+                        <p>Online Experiences</p> */}
+                        <Button className="buttons-nav-1" variant="transparent">Places to stay</Button>
+                        <Button className="buttons-nav-1" variant="transparent">Experiences</Button>
+                        <Button className="buttons-nav-1" variant="transparent">Online Experiences</Button>
                     </div>
                     {/* SEARCH  BAR FOR NAVBAR */}
                     {/* <div className="button-container">
@@ -22,7 +25,7 @@ function MyNavbar() {
                 </div> */}
 
                     <div className="buttons-container">
-                        <Button className="buttons-nav" variant="transparent">Become a Host</Button>{' '}
+                        <Button className="buttons-nav" style={{ fontWeight: "bolder", fontSize: "14px" }} variant="transparent">Become a Host</Button>{' '}
                         <Button className="buttons-nav py-2" variant="transparent"><img className='world-png' src='https://th.bing.com/th/id/R.6157c239f55eeb078c87779e5c7d087e?rik=y%2fBBj%2fsWb98TmA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fa%2fj%2fP%2fe%2f7%2fu%2fwhite-globe-hi.png&ehk=sbWQDeUP%2fS9Mmxy00ZYRw3TfHJXZ6jvRCrVBR%2bSuhbw%3d&risl=&pid=ImgRaw&r=0' alt='' /></Button>{' '}
                         <Button className="buttons-nav1 ml-2 m-0 py-0 px-n5" variant="light"> <p className='m-0 p-0 button-3'><i class="bi bi-list mr-2" style={{ fontSize: 21, color: "black" }}></i> <i class="bi bi-person-circle" style={{ fontSize: 23, color: "black" }}></i></p>  </Button>{' '}
                     </div>
