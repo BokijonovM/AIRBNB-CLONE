@@ -65,9 +65,10 @@
     padding-right: 30px;
     margin-top: 10px;
 }
-.i-am-flexible:hover{
+.i-am-flexible:hover, .i-am-flexible:active, .i-am-flexible:focus{
     background-color: rgb(245, 245, 245);
      color: rgb(155, 25, 154);
+     outline: 0;
 }
 
 @media (max-width: 550px) {
