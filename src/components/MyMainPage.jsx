@@ -11,7 +11,7 @@ function MyMainPage() {
             {/* <h1 className="main-text">Not sure where to go? Perfect.</h1> */}
             <div className="main-text-main-page">
                 <h1 className='mx-5'>Not sure where to go? Perfect.</h1>
-                <Button className='i-am-flexible shadow-none' variant="danger">I'm flexible</Button>
+                <Button className='i-am-flexible shadow-none' variant="light">I'm flexible</Button>
             </div>
 
 

@@ -77,7 +77,8 @@ function MyNavbar() {
                             <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add guests</p>
                         </div>
 
-                        <i className="bi bi-search bi-search-nav"> <span id='search-text' className='search-name-hide' style={{ color: "white" }}>Search</span></i>
+                        <i className="bi bi-search bi-search-nav"> </i>
+                        {/* <span id='search-text' className='search-name-hide' style={{ color: "white" }}>Search</span> */}
                     </div>
                     {/* <div className='nav2-item nav2-item-search py-2 pr-5 pl-3'>
                     <i className="bi bi-search bi-search-nav"></i>

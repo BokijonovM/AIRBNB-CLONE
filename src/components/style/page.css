@@ -314,19 +314,19 @@ p, span, h5{
 }
 .form-main-div{
     background-color: rgb(255, 255, 255);
-   width: 75%;
-   border-radius: 99px
+   width: 70%;
+   border-radius: 32px
    
 }
 .main-form-cont{
  display: flex;
    justify-content: center;
  background-color: black;
- padding-top: 75px;
+ padding-top: 85px;
 }
 .nav2-item{
     background-color: #ffffff;
-    border-radius: 99px;
+    border-radius: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,13 +335,13 @@ p, span, h5{
 }
 .nav2-item:hover{
     background-color: rgb(236, 236, 236);
-    border-radius: 99px;
+    border-radius: 32px;
     cursor: pointer;
 }
 
 .bi-search-nav{
     background-color: #ff385c;
-    border-radius: 99px;
+    border-radius: 32px;
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 14px;
@@ -351,9 +351,11 @@ p, span, h5{
     
 }
 
+
 .bi-search-nav:hover{
     background-color: rgb(218, 10, 10)
 }
+
 
 .nav2-item-search{
     display: flex;
@@ -390,7 +392,7 @@ p, span, h5{
 .gift-text-cont{
     background: rgb(229,229,229);
     background: linear-gradient(90deg, rgba(229,229,229,1) 0%, rgba(236,236,236,1) 50%, rgba(241,241,241,1) 100%);
-    width: 43vw;
+    width: 42vw;
     height: 500px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -408,7 +410,7 @@ p, span, h5{
 }
 
 .gift-img{
-    width: 44vw;
+    width: 43vw;
     height: 500px;
     object-fit: cover;
     border-top-right-radius: 20px;
