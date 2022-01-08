@@ -146,7 +146,7 @@ class MyNavbar extends React.Component {
                                             id="date-check-out"
                                             label="Check out"
                                             type="date"
-                                            defaultValue="2022-01-01"
+                                            defaultValue="2022-01-02"
                                             InputLabelProps={{
                                                 shrink: true,
                                             }}
