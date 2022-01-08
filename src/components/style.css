@@ -174,3 +174,15 @@
         display: none;
     }
 }
+
+.modal-navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+.nav-modal-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

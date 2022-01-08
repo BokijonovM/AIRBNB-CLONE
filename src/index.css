@@ -19,12 +19,11 @@ code {
 }
 
 /* Scrollbar hidden but working */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   
-  width: 7px;
-  background-color: transparent
+  display: none;
 }
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background-color: rgb(105, 105, 105);    
   border-radius: 20px; 
 }

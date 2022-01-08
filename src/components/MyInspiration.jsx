@@ -18,7 +18,6 @@ function MyInspiration() {
             <div className="cards-cont container">
 
                 <Row xs={1} md={2} lg={4} className="g-4 container">
-
                     <Col>
                         <Card className="mb-4 card card border-0 mx-1">
                             <Card.Img variant="top" className="card-img" src={logo14} />

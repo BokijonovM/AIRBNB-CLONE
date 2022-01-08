@@ -6,7 +6,7 @@ function MyFooter() {
     return (
         <div className='main-div'>
             <div className="footer-cont d-flex justify-content-center">
-                <Row className="container row-cont">
+                <Row xs={1} md={2} lg={4} className="container row-cont">
                     <Col>
                         <h6 className='pb-2' style={{ userSelect: "none" }}>Support</h6>
                         <p className="mb-2 support-text"><a href="#">Help Center</a></p>
@@ -41,7 +41,7 @@ function MyFooter() {
                         <p className="mb-2 support-text"><a href="#"> Airbnb Luxe</a></p>
                     </Col>
 
-                    <hr />
+
                 </Row>
             </div>
             <div className="container hr-cont">
@@ -52,7 +52,7 @@ function MyFooter() {
                     <p className="support-text"><a href="#"> © 2021 Airbnb, Inc. · Privacy · Terms · Sitemap</a></p>
                     <div className='smt-cont d-flex'>
                         <div className='d-flex'>
-                            <p style={{ color: "black" }}><i style={{ color: "black" }} class="bi bi-globe"></i><bold className="pl-2 pr-3" style={{ color: "black", textDecoration: "underline" }}>English (US)</bold>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ <bold style={{ color: "black", textDecoration: "underline" }}>USD</bold></p>
+                            <p style={{ color: "black" }}><i style={{ color: "black" }} class="bi bi-globe"></i><span className="pl-2 pr-3" style={{ color: "black", textDecoration: "underline", fontWeight: "bold" }}>English (US)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ <span style={{ color: "black", textDecoration: "underline", fontWeight: "bold" }}>USD</span></p>
                         </div>
                         <div className='d-flex pl-5'>
                             <p className="px-2" style={{ color: "black" }}><i style={{ color: "black", }} class="bi bi-facebook"></i></p>
