@@ -116,9 +116,7 @@ class MyNavbar extends React.Component {
                                             InputLabelProps={{
                                                 shrink: true,
                                             }}
-
                                         />
-
                                         <TextField
                                             id="add-guests"
                                             label="Guests"
@@ -127,10 +125,8 @@ class MyNavbar extends React.Component {
                                             InputLabelProps={{
                                                 shrink: true,
                                             }}
-
                                         />
                                     </div>
-
                                     <div className="pt-3 d-flex justify-content-between">
                                         <TextField
                                             id="date-check-in"
@@ -140,7 +136,6 @@ class MyNavbar extends React.Component {
                                             InputLabelProps={{
                                                 shrink: true,
                                             }}
-
                                         />
                                         <TextField
                                             id="date-check-out"
@@ -152,8 +147,6 @@ class MyNavbar extends React.Component {
                                             }}
                                         />
                                     </div>
-
-
                                 </div>
                             </Modal.Body>
 

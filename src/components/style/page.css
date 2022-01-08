@@ -315,7 +315,7 @@ p, span, h5{
 .form-main-div{
     background-color: rgb(255, 255, 255);
    width: 70%;
-   border-radius: 32px
+   border-radius: 99px
    
 }
 .main-form-cont{
@@ -326,7 +326,7 @@ p, span, h5{
 }
 .nav2-item{
     background-color: #ffffff;
-    border-radius: 32px;
+    border-radius: 99px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -335,7 +335,7 @@ p, span, h5{
 }
 .nav2-item:hover{
     background-color: rgb(236, 236, 236);
-    border-radius: 32px;
+    border-radius: 99px;
     cursor: pointer;
 }
 .nav2-item:focus{
