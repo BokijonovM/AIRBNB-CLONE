@@ -49,10 +49,10 @@ class MyNavbar extends React.Component {
             </div> */}
                 <div className='main-form-cont'>
                     <div className='d-flex justify-content-between form-main-div'>
-                        <div className='nav2-item py-3 pr-5 pl-4'>
+                        <div className='nav2-item py-3 pr-5 pl-4' onClick={() => { this.handleModal() }}>
                             <div>
                                 <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Location</h6>
-                                <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Where are you going?</p></div>
+                                <p className='m-0 text-muted add-location-loc' style={{ fontSize: "14px" }}>Where are you going?</p></div>
 
                         </div>
 
@@ -60,9 +60,7 @@ class MyNavbar extends React.Component {
                             <div className='vl'></div>
                         </div>
 
-                        <div className='nav2-item py-3 pr-0 pl-4' onClick={() => {
-                            this.handleModal()
-                        }}>
+                        <div className='nav2-item py-3 pr-0 pl-4' onClick={() => { this.handleModal() }}>
                             <div >
                                 <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check in</h6>
                                 <p className='m-0 text-muted add-dates-check-in' style={{ fontSize: "14px" }}>Add dates</p>
@@ -73,9 +71,7 @@ class MyNavbar extends React.Component {
                             <div className='vl'></div>
                         </div>
 
-                        <div className='nav2-item py-3 pr-0 pl-4' onClick={() => {
-                            this.handleModal()
-                        }}>
+                        <div className='nav2-item py-3 pr-0 pl-4' onClick={() => { this.handleModal() }}>
                             <div>
                                 <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Check out</h6>
                                 <p className='m-0 text-muted add-dates-check-out' style={{ fontSize: "14px" }}>Add dates</p>
@@ -86,10 +82,11 @@ class MyNavbar extends React.Component {
                             <div className='vl'></div>
                         </div>
 
-                        <div className='nav2-item nav2-item-search py-3 pr-5 pl-4' style={{ position: "relative" }}>
+                        <div className='nav2-item nav2-item-search py-3 pr-5 pl-4' onClick={() => { this.handleModal() }} style={{ position: "relative" }}>
                             <div>
                                 <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Guests</h6>
-                                <p className='m-0 text-muted' style={{ fontSize: "14px" }}>Add guests</p>
+                                <p className="m-0"><span className='m-0 text-muted add-guests-guests' style={{ fontSize: "14px" }}>Add</span> <span className='text-muted' style={{ fontSize: "14px" }}>guests</span></p>
+                                {/* <p className='m-0 text-muted add-guests-guests' style={{ fontSize: "14px" }}>Add guests</p> */}
                             </div>
 
                             <i className="bi bi-search bi-search-nav"> </i>
@@ -101,7 +98,7 @@ class MyNavbar extends React.Component {
                     </div >
                 </div >
                 <div className='nav-modal-div' >
-                    <Modal show={this.state.show}>
+                    <Modal style={{ backgroundColor: "rgba(255,255,255,0.1)", backdropFilter: "blur(5px)" }} show={this.state.show}>
                         <Modal.Dialog className='modal-navbar'>
                             <Modal.Header>
                                 <Modal.Title style={{ color: "black" }}>Choose dates</Modal.Title>
@@ -109,26 +106,54 @@ class MyNavbar extends React.Component {
 
                             <Modal.Body>
                                 <p>Have a great Holiday!</p>
-                                <div className=" px-4 w-100 d-flex justify-content-between">
-                                    <TextField
-                                        id="date-check-in"
-                                        label="Check in"
-                                        type="date"
-                                        defaultValue="2022-01-01"
-                                        InputLabelProps={{
-                                            shrink: true,
-                                        }}
+                                <div className=" px-4 w-100">
+                                    <div className="pt-3 d-flex justify-content-between">
+                                        <TextField
+                                            id="location"
+                                            label="Location"
+                                            type="text"
+                                            placeholder='Where are you going?'
+                                            InputLabelProps={{
+                                                shrink: true,
+                                            }}
 
-                                    />
-                                    <TextField
-                                        id="date-check-out"
-                                        label="Check out"
-                                        type="date"
-                                        defaultValue="2022-01-01"
-                                        InputLabelProps={{
-                                            shrink: true,
-                                        }}
-                                    />
+                                        />
+
+                                        <TextField
+                                            id="add-guests"
+                                            label="Guests"
+                                            type="number"
+                                            defaultValue="1"
+                                            InputLabelProps={{
+                                                shrink: true,
+                                            }}
+
+                                        />
+                                    </div>
+
+                                    <div className="pt-3 d-flex justify-content-between">
+                                        <TextField
+                                            id="date-check-in"
+                                            label="Check in"
+                                            type="date"
+                                            defaultValue="2022-01-01"
+                                            InputLabelProps={{
+                                                shrink: true,
+                                            }}
+
+                                        />
+                                        <TextField
+                                            id="date-check-out"
+                                            label="Check out"
+                                            type="date"
+                                            defaultValue="2022-01-01"
+                                            InputLabelProps={{
+                                                shrink: true,
+                                            }}
+                                        />
+                                    </div>
+
+
                                 </div>
                             </Modal.Body>
 
@@ -137,6 +162,7 @@ class MyNavbar extends React.Component {
                             <Modal.Footer>
                                 <Button onClick={() => { this.handleModal() }} variant="secondary">Close</Button>
                                 <Button variant="primary" onClick={() => {
+                                    let locationText = document.querySelector(".add-location-loc").innerHTML = document.getElementById("location").value
 
                                     let checkInValue = document.getElementById("date-check-in").value
                                     let checkInText = document.querySelector(".add-dates-check-in")
@@ -145,6 +171,10 @@ class MyNavbar extends React.Component {
                                     let checkOutValue = document.getElementById("date-check-out").value
                                     let checkOutText = document.querySelector(".add-dates-check-out")
                                     checkOutText.innerHTML = checkOutValue
+
+                                    let guestsValue = document.getElementById("add-guests").value
+                                    let guestsText = document.querySelector(".add-guests-guests")
+                                    guestsText.innerHTML = guestsValue
 
                                     this.handleModal()
 

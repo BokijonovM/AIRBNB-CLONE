@@ -338,6 +338,9 @@ p, span, h5{
     border-radius: 32px;
     cursor: pointer;
 }
+.nav2-item:focus{
+    background-color: #000000;
+}
 
 .bi-search-nav{
     background-color: #ff385c;
