@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Button, Modal } from 'react-bootstrap'
 import logo from './images/logo.svg'
 import './style.css';
@@ -22,9 +22,6 @@ class MyNavbar extends React.Component {
                     <div className="nav-container py-2">
                         <div> <img src={logo} alt='' /></div>
                         <div className="text-container">
-                            {/* <p>Places to stay</p>
-                        <p>Experiences</p>
-                        <p>Online Experiences</p> */}
                             <Button className="buttons-nav-1 shadow-none" variant="transparent">Places to stay</Button>
                             <Button className="buttons-nav-1 shadow-none" variant="transparent">Experiences</Button>
                             <Button className="buttons-nav-1 shadow-none" variant="transparent">Online Experiences</Button>
@@ -85,7 +82,7 @@ class MyNavbar extends React.Component {
                         <div className='nav2-item nav2-item-search py-3 pr-5 pl-4' onClick={() => { this.handleModal() }} style={{ position: "relative" }}>
                             <div>
                                 <h6 className='p-0 m-0' style={{ fontSize: "12px" }}>Guests</h6>
-                                <p className="m-0"><span className='m-0 text-muted add-guests-guests' style={{ fontSize: "14px" }}>Add</span> <span className='text-muted' style={{ fontSize: "14px" }}>guests</span></p>
+                                <p className="m-0"><span className='m-0 text-muted add-guests-guests' style={{ fontSize: "14px" }}>Add</span> <span className='span-guests-text text-muted' id='add-guests-navbar' style={{ fontSize: "14px" }}>guests</span></p>
                                 {/* <p className='m-0 text-muted add-guests-guests' style={{ fontSize: "14px" }}>Add guests</p> */}
                             </div>
 
@@ -155,8 +152,8 @@ class MyNavbar extends React.Component {
                             <Modal.Footer>
                                 <Button onClick={() => { this.handleModal() }} variant="secondary">Close</Button>
                                 <Button variant="primary" onClick={() => {
-                                    let locationText = document.querySelector(".add-location-loc").innerHTML = document.getElementById("location").value
-
+                                    let locationText = document.querySelector(".add-location-loc")
+                                    locationText.innerHTML = document.getElementById("location").value
                                     let checkInValue = document.getElementById("date-check-in").value
                                     let checkInText = document.querySelector(".add-dates-check-in")
                                     checkInText.innerHTML = checkInValue
@@ -167,7 +164,14 @@ class MyNavbar extends React.Component {
 
                                     let guestsValue = document.getElementById("add-guests").value
                                     let guestsText = document.querySelector(".add-guests-guests")
+
+                                    let removeClass = document.querySelector(".span-guests-text")
+                                    removeClass.classList.remove("text-muted")
+                                    let addStyle = document.getElementById("add-guests-navbar")
+                                    addStyle.style.fontWeight = "700"
+
                                     guestsText.innerHTML = guestsValue
+
 
                                     this.handleModal()
 
